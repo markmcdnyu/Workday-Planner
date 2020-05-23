@@ -43,6 +43,10 @@ body {
     margin-right: 3px;
     padding-right: 9px;
   }
+
+  .moveRow {
+      padding-right: 0px;
+  }
   
   .past {
     background-color: #d3d3d3;
