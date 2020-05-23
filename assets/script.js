@@ -6,7 +6,7 @@
     WHEN I open the planner
     THEN the current day is displayed at the top of the calendar
     --Ideas on what to do--
-    
+
 
     WHEN I scroll down
     THEN I am presented with timeblocks for standard business hours
@@ -33,3 +33,6 @@
     --Ideas on what to do--
 
 */
+
+let m = moment();
+console.log(m);
