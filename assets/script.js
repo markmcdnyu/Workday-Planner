@@ -42,7 +42,7 @@ for (let i = 0; i < taskList.length; i++){
 $('.saveBtn').on('click', function (event) {
     let index = event.target.value;
 
-    //Need to assign the vale to the array because I will need to store it
+    //Need to assign the value to the array because I will need to store it
     taskList[index] = $('#tasks' + index).val();
 
     //now I need to persist/store the data
@@ -72,7 +72,7 @@ function store() {
     WHEN I scroll down
     THEN I am presented with timeblocks for standard business hours
     --Ideas on what to do--
-    make it 9-5 with 9 divs that carry all the functionalty for JS to target and input with moment 
+    make it 8-5 with 10 divs that carry all the functionalty for JS to target and input with moment 
 
     WHEN I view the timeblocks for that day
     THEN each timeblock is color coded to indicate whether it is in the past, present, or future
