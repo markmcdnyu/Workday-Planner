@@ -1,5 +1,17 @@
 // Starting with the requirements 
 
+//There is a place in the given html to target and put the current date and time. Need to use momentjs
+$("#currentDay").text(moment().format('MMMM Do YYYY hh:mm:ss A'));
+
+setInterval(function () {
+    $("#currentDay").text(moment().format('MMMM Do YYYY hh:mm:ss A'));
+}, 1000);
+
+//Need array to store the array of Tasks
+//let taskList = []
+
+// Need to call the function to store the data inputs locally 
+
 /* ACCEPTANCE CRITERIA
 
 
@@ -33,6 +45,3 @@
     --Ideas on what to do--
 
 */
-
-let m = moment();
-console.log(m);
