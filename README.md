@@ -1,6 +1,7 @@
 # Work Day Planner - using third-party APIs: 
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. Here is the live link to the  
+<a href="https://markmcdnyu.github.io/Workday-Planner/" target="_blank">Workday Scheduler</a>
 
 For time, I used [Moment.js](https://momentjs.com/) library to work with date and time. Concentrated on using Moment.js in the browser.
 
